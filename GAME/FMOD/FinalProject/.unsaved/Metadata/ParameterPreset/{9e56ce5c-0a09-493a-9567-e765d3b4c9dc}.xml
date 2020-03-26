@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{9e56ce5c-0a09-493a-9567-e765d3b4c9dc}">
+		<property name="name">
+			<value>Vampire</value>
+		</property>
+		<relationship name="folder">
+			<destination>{88e5fae6-e6a1-4d14-a49f-f1af5d9f83b6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{157daab4-a06e-4618-b914-b5759ad396ee}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{157daab4-a06e-4618-b914-b5759ad396ee}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
