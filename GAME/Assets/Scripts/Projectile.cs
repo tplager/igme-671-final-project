@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity; 
 
 public class Projectile : MonoBehaviour
 {
@@ -82,6 +83,22 @@ public class Projectile : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Player")
         {
+            if (collision.gameObject.tag == "Enemy")
+            {
+                foreach (StudioEventEmitter stevem in collision.gameObject.GetComponents<StudioEventEmitter>())
+                {
+                    if (stevem.Event == "event:/SFX/EnemyHit")
+                        stevem.Play();
+                }
+            }
+            if (collision.gameObject.tag == "Player")
+            {
+                foreach (StudioEventEmitter stevem in collision.gameObject.GetComponents<StudioEventEmitter>())
+                {
+                    if (stevem.Event == "event:/SFX/PlayerHit")
+                        stevem.Play(); 
+                } 
+            }
             collision.gameObject.GetComponent<Vehicle>().Health -= damage;
             try
             {

@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Pickup
   - EndWall
+  - Projectile
   layers:
   - Default
   - TransparentFX

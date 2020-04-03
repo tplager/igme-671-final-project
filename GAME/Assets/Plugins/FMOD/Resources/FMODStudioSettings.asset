@@ -15,7 +15,7 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: FMOD\FinalProject\FinalProject.fspro
+  sourceProjectPath: FMOD/FinalProject/FinalProject.fspro
   sourceBankPath: FMOD\FinalProject\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
@@ -48,7 +48,7 @@ MonoBehaviour:
   - Platform: 1
     Value: 1
   - Platform: 2
-    Value: 0
+    Value: 1
   - Platform: 20
     Value: 0
   LoggingSettings:
@@ -58,7 +58,9 @@ MonoBehaviour:
     Value: 0
   - Platform: 20
     Value: 0
-  BankDirectorySettings: []
+  BankDirectorySettings:
+  - Platform: 2
+    Value: Desktop
   VirtualChannelSettings:
   - Platform: 1
     Value: 1024
@@ -74,7 +76,13 @@ MonoBehaviour:
   - Platform: 20
     Value: 32
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - Ambiance
+  - Dialogue
+  - Interface
+  - Music
+  - SFX
   BanksToLoad: []
   LiveUpdatePort: 9264

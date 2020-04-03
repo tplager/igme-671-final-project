@@ -38,8 +38,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.17, y: 0.31}
+    newSize: {x: 0.17, y: 0.31}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -54,11 +54,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5853861858401798535, guid: 590892d7f1297374982701bc52df2ef1,
-        type: 3}
-      propertyPath: m_Name
-      value: Thrall Variant
-      objectReference: {fileID: 0}
     - target: {fileID: 1366386195629985017, guid: 590892d7f1297374982701bc52df2ef1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -134,6 +129,11 @@ PrefabInstance:
       propertyPath: health
       value: 80
       objectReference: {fileID: 0}
+    - target: {fileID: 5853861858401798535, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: m_Name
+      value: Thrall Variant
+      objectReference: {fileID: 0}
     - target: {fileID: 5855777283210538679, guid: 590892d7f1297374982701bc52df2ef1,
         type: 3}
       propertyPath: m_Color.r
@@ -148,6 +148,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899374333460080099, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 590892d7f1297374982701bc52df2ef1, type: 3}

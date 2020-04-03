@@ -15,9 +15,9 @@ public class UIManager : MonoBehaviour
     private int score = 0; 
     
     [SerializeField]
-    private Canvas pauseCanvas;
+    private GameObject pauseCanvas;
     [SerializeField]
-    private Canvas almanacCanvas;
+    private GameObject almanacCanvas;
     private bool paused;
     [SerializeField]
     private Slider healthSlider;
@@ -133,7 +133,7 @@ public class UIManager : MonoBehaviour
     public void LoadNewScene(string sceneName)
     {
         if (sceneName == "Level1") GameObject.Find("DataManager(Clone)").GetComponent<DataManager>().Score = 0;
-        else if (sceneName == "Main Menu") GameObject.Find("DataManager(Clone)").GetComponent<AudioSource>().Stop(); 
+        //else if (sceneName == "Main Menu") GameObject.Find("DataManager(Clone)").GetComponent<AudioSource>().Stop(); 
         SceneManager.LoadSceneAsync(sceneName);
     }
 
@@ -148,8 +148,12 @@ public class UIManager : MonoBehaviour
         foreach (GameObject e in enemies)
             e.GetComponent<Enemy>().Paused = true;
 
-        pauseCanvas.enabled = true;
-        almanacCanvas.enabled = false;
+        if (!pauseCanvas.GetComponent<Canvas>().enabled)
+            pauseCanvas.GetComponent<Canvas>().enabled = true;
+        else 
+            pauseCanvas.SetActive(true);
+
+        almanacCanvas.SetActive(false);
 
         paused = true;
     }
@@ -160,15 +164,15 @@ public class UIManager : MonoBehaviour
         foreach (GameObject e in enemies)
             e.GetComponent<Enemy>().Paused = false;
 
-        pauseCanvas.enabled = false;
+        pauseCanvas.SetActive(false);
 
         paused = false; 
     }
 
     public void AlmanacVisible()
     {
-        pauseCanvas.enabled = false;
-        almanacCanvas.enabled = true;
+        pauseCanvas.GetComponent<Canvas>().enabled = false; 
+        almanacCanvas.SetActive(true);
     }
 
     public void QuitGame()

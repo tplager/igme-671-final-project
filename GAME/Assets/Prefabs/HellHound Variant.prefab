@@ -7,10 +7,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5853861858401798535, guid: 590892d7f1297374982701bc52df2ef1,
+    - target: {fileID: -4898545039805573596, guid: 590892d7f1297374982701bc52df2ef1,
         type: 3}
-      propertyPath: m_Name
-      value: HellHound Variant
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d61045803c5728e44a9250883680f0ad, type: 2}
+    - target: {fileID: -946964966980260938, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.data[0].Value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1366386195629985017, guid: 590892d7f1297374982701bc52df2ef1,
         type: 3}
@@ -82,52 +87,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 5786958316331309849, guid: 590892d7f1297374982701bc52df2ef1,
-        type: 3}
-      propertyPath: reversed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5786958316331309849, guid: 590892d7f1297374982701bc52df2ef1,
-        type: 3}
-      propertyPath: health
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5786958316331309849, guid: 590892d7f1297374982701bc52df2ef1,
-        type: 3}
-      propertyPath: damage
-      value: 35
-      objectReference: {fileID: 0}
-    - target: {fileID: 5786958316331309849, guid: 590892d7f1297374982701bc52df2ef1,
-        type: 3}
-      propertyPath: meleeDamage
-      value: 35
-      objectReference: {fileID: 0}
-    - target: {fileID: 5855777283210538679, guid: 590892d7f1297374982701bc52df2ef1,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 2388793732434983935, guid: d8d408fba465f6b4880db37e1ecf66eb,
-        type: 3}
-    - target: {fileID: 5855777283210538679, guid: 590892d7f1297374982701bc52df2ef1,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 5855777283210538679, guid: 590892d7f1297374982701bc52df2ef1,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.24
-      objectReference: {fileID: 0}
-    - target: {fileID: -4898545039805573596, guid: 590892d7f1297374982701bc52df2ef1,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: d61045803c5728e44a9250883680f0ad, type: 2}
-    - target: {fileID: 6262475765571033977, guid: 590892d7f1297374982701bc52df2ef1,
-        type: 3}
-      propertyPath: m_Mass
-      value: 0.35
-      objectReference: {fileID: 0}
     - target: {fileID: 2212800221951384109, guid: 590892d7f1297374982701bc52df2ef1,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -168,6 +127,62 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.14442062
       objectReference: {fileID: 0}
+    - target: {fileID: 5786958316331309849, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: reversed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5786958316331309849, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: health
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5786958316331309849, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: damage
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5786958316331309849, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: meleeDamage
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853861858401798535, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: m_Name
+      value: HellHound Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855777283210538679, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2388793732434983935, guid: d8d408fba465f6b4880db37e1ecf66eb,
+        type: 3}
+    - target: {fileID: 5855777283210538679, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855777283210538679, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899374333460080099, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 672b7bdec9104064c948503cfcd7d68d, type: 2}
+    - target: {fileID: 6262475765571033977, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060450891503608076, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.data[0].Value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7580135960411129349, guid: 590892d7f1297374982701bc52df2ef1,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -183,10 +198,5 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.17218587
       objectReference: {fileID: 0}
-    - target: {fileID: 5899374333460080099, guid: 590892d7f1297374982701bc52df2ef1,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 672b7bdec9104064c948503cfcd7d68d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 590892d7f1297374982701bc52df2ef1, type: 3}

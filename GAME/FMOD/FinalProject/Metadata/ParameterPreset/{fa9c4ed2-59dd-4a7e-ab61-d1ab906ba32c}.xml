@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{fa9c4ed2-59dd-4a7e-ab61-d1ab906ba32c}">
+		<property name="name">
+			<value>EnemyType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{88e5fae6-e6a1-4d14-a49f-f1af5d9f83b6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{46c9dc70-fe94-4d65-84d7-cbfafc8ded5f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{46c9dc70-fe94-4d65-84d7-cbfafc8ded5f}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Vampire</value>
+			<value>Hellhound</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using FMODUnity;
 
 public class Enemy : Vehicle
 {
@@ -104,7 +105,18 @@ void Start()
                 }
                 else if (attackTime >= 1.0f)
                 {
+                    foreach (StudioEventEmitter stevem in gameObject.GetComponents<StudioEventEmitter>())
+                    {
+                        if (stevem.Event == "event:/SFX/EnemyMeleeAttack")
+                            stevem.Play();
+                    }
+                    foreach (StudioEventEmitter stevem in dresden.GetComponents<StudioEventEmitter>())
+                    {
+                        if (stevem.Event == "event:/SFX/PlayerHit")
+                            stevem.Play();
 
+                        stevem.IsPlaying(); 
+                    }
                     dresden.GetComponent<Dresden>().Health -= meleeDamage;
                     attackTime = 0.0f;
                     //Debug.Log("Damage Dealt");

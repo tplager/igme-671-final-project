@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class SpellCast : MonoBehaviour
 {
@@ -23,7 +24,9 @@ public class SpellCast : MonoBehaviour
 
     [SerializeField]
     private bool enemy;
-    private bool active; 
+    private bool active;
+
+    private StudioEventEmitter fireballEmitter; 
 
     public float HoldStrength
     {
@@ -44,7 +47,14 @@ public class SpellCast : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dresden = GameObject.Find("Dresden"); 
+        dresden = GameObject.Find("Dresden");
+        foreach (StudioEventEmitter stevem in gameObject.GetComponents<StudioEventEmitter>())
+        {
+            if (stevem.Event == "event:/SFX/Fireball")
+            {
+                fireballEmitter = stevem; 
+            }
+        }
     }
 
     // Update is called once per frame
@@ -57,10 +67,14 @@ public class SpellCast : MonoBehaviour
                 if (Input.GetMouseButton(0))
                 {
                     holdStrength += Time.deltaTime;
+                    if (!fireballEmitter.IsPlaying())
+                        fireballEmitter.Play(); 
                 }
 
                 if (Input.GetMouseButtonUp(0))
                 {
+                    fireballEmitter.SetParameter("HoldingMouse", 0); 
+
                     GameObject spell = Instantiate(spellPrefabs[0], dresden.transform.position + dresden.GetComponent<Dresden>().velocity.normalized, dresden.transform.rotation);
                     //Camera.main.GetComponent<CollisionManager>().projectiles.Add(spell);
 

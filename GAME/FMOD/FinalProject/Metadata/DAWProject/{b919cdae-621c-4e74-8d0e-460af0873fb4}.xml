@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="DAWProject" id="{b919cdae-621c-4e74-8d0e-460af0873fb4}">
+		<property name="assetPath">
+			<value>audio_work.rpp.link/</value>
+		</property>
+		<property name="dawProjectPath">
+			<value>D:/Documents/InteractiveGamesAndAudio/igme-671-final-project/audio/audio_work.rpp</value>
+		</property>
+		<property name="renderedAssetsPath">
+			<value>output</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c6c080f1-ee95-44d1-ac25-9f10ae5c5917}</destination>
+		</relationship>
+	</object>
+</objects>
