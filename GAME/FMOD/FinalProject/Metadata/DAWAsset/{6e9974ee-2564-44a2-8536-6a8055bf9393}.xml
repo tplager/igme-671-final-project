@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="DAWAsset" id="{6e9974ee-2564-44a2-8536-6a8055bf9393}">
+		<property name="assetPath">
+			<value>audio_work.rpp.link/Hellhound Ambiance_Lazy Growling 8.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.9599773242630385</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c6c080f1-ee95-44d1-ac25-9f10ae5c5917}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{b919cdae-621c-4e74-8d0e-460af0873fb4}</destination>
+		</relationship>
+	</object>
+</objects>

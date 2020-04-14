@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="DAWAsset" id="{b549e9e9-b7ea-45c1-8599-996a9da36249}">
+		<property name="assetPath">
+			<value>audio_work.rpp.link/Menu Music.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>59.539999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c6c080f1-ee95-44d1-ac25-9f10ae5c5917}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{b919cdae-621c-4e74-8d0e-460af0873fb4}</destination>
+		</relationship>
+	</object>
+</objects>
