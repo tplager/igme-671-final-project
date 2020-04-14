@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity; 
 
 /// <summary>
 /// Manages Audio in the scene
@@ -15,6 +16,10 @@ public class AudioManager : MonoBehaviour
     //private AudioSource globalSource, stoneSource;                  //audio sources to manage what plays when
     //[SerializeField]
     //private GameObject stoneSourceObject;                           //the game object containing the stone audio source
+
+    private StudioEventEmitter menuMusic;
+    private StudioEventEmitter bossMusic;
+    private StudioEventEmitter spookyMusic; 
     #endregion
 
     // Start is called before the first frame update
@@ -25,6 +30,21 @@ public class AudioManager : MonoBehaviour
         //stoneSource = stoneSourceObject.GetComponent<AudioSource>();
 
         DontDestroyOnLoad(gameObject);
+
+        StudioEventEmitter[] emitters = gameObject.GetComponents<StudioEventEmitter>();
+        foreach (StudioEventEmitter em in emitters)
+        {
+            if (em.Event == "event:/Music/SpookyMusic")
+                spookyMusic = em;
+            else if (em.Event == "event:/Music/MenuMusic")
+                menuMusic = em;
+            else if (em.Event == "event:/Music/BossMusic")
+                bossMusic = em;
+        }
+
+        //Debug.Log(spookyMusic);
+        //Debug.Log(menuMusic);
+        //Debug.Log(bossMusic); 
     }
 
     // Update is called once per frame
@@ -33,6 +53,38 @@ public class AudioManager : MonoBehaviour
         
     }
 
+    public void PlayMenuMusic()
+    {
+        if (!menuMusic.IsPlaying())
+        {
+            menuMusic.Play(); 
+        }
+
+        bossMusic.Stop();
+        spookyMusic.Stop(); 
+    }
+
+    public void PlaySpookyMusic()
+    {
+        if (!spookyMusic.IsPlaying())
+        {
+            spookyMusic.Play();
+        }
+
+        bossMusic.Stop();
+        menuMusic.Stop();
+    }
+
+    public void PlayBossMusic()
+    {
+        if (!bossMusic.IsPlaying())
+        {
+            bossMusic.Play();
+        }
+
+        spookyMusic.Stop();
+        menuMusic.Stop();
+    }
     ///// <summary>
     ///// Plays the button click one time
     ///// </summary>

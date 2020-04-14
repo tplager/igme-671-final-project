@@ -44,6 +44,7 @@ public class Dresden : Vehicle
             gameObject.GetComponentInChildren<SpriteRenderer>().color = Color.blue;
             SceneManager.LoadScene("Credits");
             Camera.main.GetComponent<UIManager>().Game = false;
+            GameObject.Find("AudioManager(Clone)").GetComponent<AudioManager>().PlayMenuMusic(); 
             return;
         }
 

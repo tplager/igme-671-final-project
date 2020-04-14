@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using FMODUnity;
+using System; 
 
 public class Enemy : Vehicle
 {
@@ -32,7 +33,9 @@ public class Enemy : Vehicle
     private bool reversed;
 
     [SerializeField]
-    private bool isBoss; 
+    private bool isBoss;
+
+    private StudioEventEmitter ambiance; 
 #endregion
 
 // Start is called before the first frame update
@@ -41,6 +44,11 @@ void Start()
         if (moving)
         {
             gameObject.GetComponent<Animator>().SetBool("Moving", true);
+            foreach (StudioEventEmitter em in gameObject.GetComponents<StudioEventEmitter>())
+            {
+                if (em.Event == "event:/Ambience/Vampire Ambiance" || em.Event == "event:/Ambiance/Hellhound Ambiance")
+                    ambiance = em; 
+            }
         }
 
         attackRange = 1.5f;
@@ -65,6 +73,11 @@ void Start()
     {
         if (!paused)
         {
+            ambiance.SetParameter("Moving", Convert.ToSingle(moving));
+            Debug.Log(ambiance);
+            Debug.Log(ambiance.Params.Length);
+            Debug.Log(ambiance.Params[0].Name); 
+
             if (colorTicker >= 0.5f)
             {
                 gameObject.GetComponent<SpriteRenderer>().color = Color.white;
@@ -82,8 +95,10 @@ void Start()
 
                 if (isBoss)
                 {
-                    GameObject[] walls = GameObject.FindGameObjectsWithTag("EndWall"); 
+                    GameObject[] walls = GameObject.FindGameObjectsWithTag("EndWall");
 
+                    GameObject.Find("ExitSign").GetComponent<StudioEventEmitter>().Play();
+                    Debug.Log(GameObject.Find("ExitSign").GetComponent<StudioEventEmitter>().IsPlaying());
                     if (walls.Length != 0)
                     {
                         foreach (GameObject w in walls)

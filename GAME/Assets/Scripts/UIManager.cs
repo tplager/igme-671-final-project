@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using FMODUnity;
 
 public class UIManager : MonoBehaviour
 {
@@ -28,6 +29,10 @@ public class UIManager : MonoBehaviour
 
     [SerializeField]
     private GameObject blankPickupPrefab;
+    [SerializeField]
+    private GameObject audioManagerPrefab;
+
+    private AudioManager audioManager; 
     
     private List<(Pickup, GameObject)> activePickups = new List<(Pickup, GameObject)>();
     
@@ -57,6 +62,13 @@ public class UIManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        if (GameObject.Find("AudioManager(Clone)") == null)
+            audioManager = Instantiate(audioManagerPrefab).GetComponent<AudioManager>(); 
+        else
+        {
+            audioManager = GameObject.Find("AudioManager(Clone)").GetComponent<AudioManager>();
+        }
+
         if (game)
         {
             //Calculate and store the offset value by getting the distance between the player's position and camera's position.
@@ -132,14 +144,41 @@ public class UIManager : MonoBehaviour
 
     public void LoadNewScene(string sceneName)
     {
-        if (sceneName == "Level1") GameObject.Find("DataManager(Clone)").GetComponent<DataManager>().Score = 0;
+        if (sceneName == "Tutorial")
+        {
+            audioManager.PlaySpookyMusic(); 
+        }
+        else if (sceneName == "Level1")
+        {
+            GameObject.Find("DataManager(Clone)").GetComponent<DataManager>().Score = 0;
+        }
+        else if (sceneName == "Instructions" || sceneName == "Credits" || sceneName == "Main Menu")
+        {
+            audioManager.PlayMenuMusic();
+        }
         //else if (sceneName == "Main Menu") GameObject.Find("DataManager(Clone)").GetComponent<AudioSource>().Stop(); 
         SceneManager.LoadSceneAsync(sceneName);
     }
 
     public void LoadNextLevel()
     {
-        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1); 
+        int newSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+
+        audioManager.PlaySpookyMusic();
+
+        if (newSceneIndex == 7 || newSceneIndex == 13)
+        {
+            audioManager.PlayBossMusic();
+        }
+        //else if (newSceneIndex == 8)
+        //{
+        //    audioManager.PlaySpookyMusic(); 
+        //}
+        else if (newSceneIndex == 14)
+        {
+            audioManager.PlayMenuMusic();
+        }
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void PauseGame()
