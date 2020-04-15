@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using FMODUnity;
+using System; 
 
 public class Dresden : Vehicle
 {
@@ -11,11 +13,18 @@ public class Dresden : Vehicle
     private float colorTicker;
     public GameObject runSprite;
     public GameObject idleSprite;
+    private StudioEventEmitter ambiance; 
 
     // Start is called before the first frame update
     void Start()
     {
         base.Start();
+
+        foreach (StudioEventEmitter em in gameObject.GetComponents<StudioEventEmitter>())
+        {
+            if (em.Event == "event:/Ambience/PlayerAmbiance")
+                ambiance = em;
+        }
     }
 
     // Update is called once per frame
@@ -48,15 +57,23 @@ public class Dresden : Vehicle
             return;
         }
 
-        if(ultimateForce.magnitude != 0)
+        if (ultimateForce.magnitude != 0)
         {
             runSprite.SetActive(true);
             idleSprite.SetActive(false);
+            if (ambiance.EventInstance.isValid())
+            {
+                ambiance.SetParameter("Moving", 1);
+            }
         }
         else
         {
             runSprite.SetActive(false);
             idleSprite.SetActive(true);
+            if (ambiance.EventInstance.isValid())
+            {
+                ambiance.SetParameter("Moving", 0);
+            }
         }
 
     }

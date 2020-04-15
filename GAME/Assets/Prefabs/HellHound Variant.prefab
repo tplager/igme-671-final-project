@@ -9,8 +9,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4999191285112616584, guid: 590892d7f1297374982701bc52df2ef1,
         type: 3}
+      propertyPath: Params.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4999191285112616584, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
       propertyPath: Event
       value: event:/Ambience/HellhoundAmbiance
+      objectReference: {fileID: 0}
+    - target: {fileID: -4999191285112616584, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.data[0].Name
+      value: Moving
       objectReference: {fileID: 0}
     - target: {fileID: -4898545039805573596, guid: 590892d7f1297374982701bc52df2ef1,
         type: 3}

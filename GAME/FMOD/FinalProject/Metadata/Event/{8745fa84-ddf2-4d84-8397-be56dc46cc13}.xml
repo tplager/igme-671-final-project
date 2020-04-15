@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{8745fa84-ddf2-4d84-8397-be56dc46cc13}">
 		<property name="name">
-			<value>Vampire Ambiance</value>
+			<value>VampireAmbiance</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -124,7 +124,7 @@
 			<value>5</value>
 		</property>
 		<property name="spawnRate">
-			<value>500</value>
+			<value>400</value>
 		</property>
 		<property name="volumeRandomization">
 			<value>-4</value>

@@ -44,11 +44,12 @@ void Start()
         if (moving)
         {
             gameObject.GetComponent<Animator>().SetBool("Moving", true);
-            foreach (StudioEventEmitter em in gameObject.GetComponents<StudioEventEmitter>())
-            {
-                if (em.Event == "event:/Ambience/Vampire Ambiance" || em.Event == "event:/Ambiance/Hellhound Ambiance")
-                    ambiance = em; 
-            }
+        }
+
+        foreach (StudioEventEmitter em in gameObject.GetComponents<StudioEventEmitter>())
+        {
+            if (em.Event == "event:/Ambience/VampireAmbiance" || em.Event == "event:/Ambience/HellhoundAmbiance")
+                ambiance = em;
         }
 
         attackRange = 1.5f;
@@ -73,10 +74,15 @@ void Start()
     {
         if (!paused)
         {
-            ambiance.SetParameter("Moving", Convert.ToSingle(moving));
-            Debug.Log(ambiance);
-            Debug.Log(ambiance.Params.Length);
-            Debug.Log(ambiance.Params[0].Name); 
+            float value = 0; 
+
+            if (ambiance.EventInstance.isValid())
+            {
+                ambiance.SetParameter("Moving", Convert.ToSingle(moving));
+                ambiance.EventInstance.getParameterByName("Moving", out value); 
+            }
+
+            //UnityEngine.Debug.Log(value); 
 
             if (colorTicker >= 0.5f)
             {
@@ -98,7 +104,7 @@ void Start()
                     GameObject[] walls = GameObject.FindGameObjectsWithTag("EndWall");
 
                     GameObject.Find("ExitSign").GetComponent<StudioEventEmitter>().Play();
-                    Debug.Log(GameObject.Find("ExitSign").GetComponent<StudioEventEmitter>().IsPlaying());
+                    //Debug.Log(GameObject.Find("ExitSign").GetComponent<StudioEventEmitter>().IsPlaying());
                     if (walls.Length != 0)
                     {
                         foreach (GameObject w in walls)

@@ -262,15 +262,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Ambience/Vampire Ambiance
+  Event: event:/Ambience/VampireAmbiance
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
+  OverrideAttenuation: 1
+  OverrideMinDistance: 4.5014486
   OverrideMaxDistance: 20
 --- !u!1 &5893008672446733104
 GameObject:

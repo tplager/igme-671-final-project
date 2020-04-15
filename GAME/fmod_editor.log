@@ -7,13 +7,156 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001F2C210B048 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000029FF32A3AC8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 205184
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 7584
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000BDE1AFEEEC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA5E70C320
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA5E70C2F0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA5E70C3F0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA5E70C4B0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000029F96C239F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Bob Dialogue_02', format=2, channels=2, frequency=48000, lengthbytes=37216, lengthpcm=223256, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.787938.
+[LOG] SoundI::release                          :  (0000029F6153B638)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing 1 (0000029F320EBD68)
+[LOG] SoundI::release                          :  (0000029F6153DFE8)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing 2 (0000029F320F2A48)
+[LOG] SoundI::release                          :  (0000029F6153BBF8)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing 3 (0000029F30E65738)
+[LOG] SoundI::release                          :  (0000029F32F518E8)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing 4 (0000029F320EC8C8)
+[LOG] SoundI::release                          :  (0000029F6153E2C8)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing 5 (0000029F320F2708)
+[LOG] SoundI::release                          :  (0000029F6153C778)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing-001 (0000029F30E66778)
+[LOG] SoundI::release                          :  (0000029F6153BD68)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing-002 (0000029F30E67C98)
+[LOG] SoundI::release                          :  (0000029F6153E438)
+[LOG] SoundI::release                          :     Cloth Rustling 2 (0000029F320F28A8)
+[LOG] SoundI::release                          :  (0000029F32F4F218)
+[LOG] SoundI::release                          :     Cloth Rustling 4 (0000029F320EDF88)
+[LOG] SoundI::release                          :  (0000029F6153C8E8)
+[LOG] SoundI::release                          :     Footstep 10 (0000029F30E64898)
+[LOG] SoundI::release                          :  (0000029F6153DB98)
+[LOG] SoundI::release                          :     Footstep 11 (0000029F320F2228)
+[LOG] SoundI::release                          :  (0000029F6153C328)
+[LOG] SoundI::release                          :     Footstep 12 (0000029F30E64BD8)
+[LOG] SoundI::release                          :  (0000029F6153E9F8)
+[LOG] SoundI::release                          :     Footstep 8 (0000029F30E64A38)
+[LOG] SoundI::release                          :  (0000029F32F52748)
+[LOG] SoundI::release                          :     Footstep 9 (0000029F320EE608)
+[LOG] SoundI::release                          :  (0000029F6153F298)
+[LOG] SoundI::release                          :     Vampire Ambiance_Hissing 2 (0000029F320EBF08)
+[LOG] SoundI::release                          :  (0000029F6153DE78)
+[LOG] SoundI::release                          :     Vampire Ambiance_Hissing 1 (0000029F30E67AF8)
+[LOG] SoundI::release                          :  (0000029F32F511B8)
+[LOG] SoundI::release                          :     Footstep 1 (0000029F320EFB28)
+[LOG] SoundI::release                          :  (0000029F6153EB68)
+[LOG] SoundI::release                          :     Footstep 2 (0000029F30E672D8)
+[LOG] SoundI::release                          :  (0000029F32F4EF38)
+[LOG] SoundI::release                          :     Footstep 3 (0000029F320EFE68)
+[LOG] SoundI::release                          :  (0000029F32F52468)
+[LOG] SoundI::release                          :     Footstep 4 (0000029F320EE2C8)
+[LOG] SoundI::release                          :  (0000029F32F4F388)
+[LOG] SoundI::release                          :     Footstep 5 (0000029F320EE468)
+[LOG] SoundI::release                          :  (0000029F6153C498)
+[LOG] SoundI::release                          :     Footstep 6 (0000029F30E65C18)
+[LOG] SoundI::release                          :  (0000029F32F4F948)
+[LOG] SoundI::release                          :     Footstep 7 (0000029F320EE7A8)
+[LOG] SoundI::release                          :  (0000029F6153C048)
+[LOG] SoundI::release                          :     Cloth Rustling 1 (0000029F30E64F18)
+[LOG] SoundI::release                          :  (0000029F32F51EA8)
+[LOG] SoundI::release                          :     Cloth Rustling 3 (0000029F320EB208)
+[LOG] SoundI::release                          :  (0000029F32F522F8)
+[LOG] SoundI::release                          :     Cloth Rustling 5 (0000029F320F0EA8)
+[LOG] SoundI::release                          :  (0000029F6153CBC8)
+[LOG] SoundI::release                          :     Bob Dialogue_01 (0000029F30E66918)
+[LOG] SoundI::release                          :  (0000029F6153BA88)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Bark 1 (0000029F320F1BA8)
+[LOG] SoundI::release                          :  (0000029F6153E158)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Bark 2 (0000029F30E66DF8)
+[LOG] SoundI::release                          :  (0000029F32F525D8)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Dog Breathing 1 (0000029F320EB888)
+[LOG] SoundI::release                          :  (0000029F6153BED8)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Dog Breathing 2 (0000029F30E650B8)
+[LOG] SoundI::release                          :  (0000029F6153E718)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Dog Breathing 3 (0000029F30E646F8)
+[LOG] SoundI::release                          :  (0000029F32F4FC28)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Dog Breathing 4 (0000029F320EE948)
+[LOG] SoundI::release                          :  (0000029F32F4EDC8)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Lazy Growling 1 (0000029F320EF988)
+[LOG] SoundI::release                          :  (0000029F6153F128)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Lazy Growling 2 (0000029F320F1A08)
+[LOG] SoundI::release                          : Menu Music (0000029FBC537838)
+[LOG] SoundI::release                          :     Menu Music (0000029F320F16C8)
+[LOG] SoundI::release                          :     Menu Music (0000029FBC537D48)
+[LOG] SoundI::release                          :  (0000029F6153D8B8)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Lazy Growling 3 (0000029F30E66298)
+[LOG] SoundI::release                          :  (0000029F6153ECD8)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Lazy Growling 4 (0000029F30E66438)
+[LOG] SoundI::release                          :  (0000029F32F51498)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Lazy Growling 5 (0000029F320ECF48)
+[LOG] SoundI::release                          :  (0000029F32F504C8)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Lazy Growling 6 (0000029F320EDDE8)
+[LOG] SoundI::release                          :  (0000029F32F52018)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Lazy Growling 7 (0000029F320F0008)
+[LOG] SoundI::release                          :  (0000029F6153C608)
+[LOG] SoundI::release                          :     Hellhound Ambiance_Lazy Growling 8 (0000029F30E665D8)
+[LOG] SoundI::release                          :  (0000029F6153E5A8)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 8 (0000029F30E67E38)
+[LOG] SoundI::release                          :  (0000029F6153EE48)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 7 (0000029F30E64D78)
+[LOG] SoundI::release                          :  (0000029F32F528B8)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 6 (0000029F320EBA28)
+[LOG] SoundI::release                          :  (0000029F32F51328)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 5 (0000029F320F1048)
+[LOG] SoundI::release                          :  (0000029F6153B7A8)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 4 (0000029F320F2568)
+[LOG] SoundI::release                          :  (0000029F32F51D38)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 3 (0000029F320EF308)
+[LOG] SoundI::release                          :  (0000029F6153EFB8)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 2 (0000029F320F1D48)
+[LOG] SoundI::release                          :  (0000029F6153B918)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 1 (0000029F320F1868)
+[LOG] SoundI::release                          :  (0000029F6153DD08)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Magic Circle (0000029F30E65258)
+[LOG] SoundI::release                          :  (0000029F32F50638)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Electric Spark (0000029F320F1388)
+[LOG] SoundI::release                          :  (0000029FBD02FA08)
+[LOG] SoundI::release                          :     Bob Dialogue_02 (0000029F2E48C888)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
