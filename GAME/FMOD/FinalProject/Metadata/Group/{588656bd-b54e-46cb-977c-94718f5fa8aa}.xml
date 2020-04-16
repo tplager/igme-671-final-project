@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{588656bd-b54e-46cb-977c-94718f5fa8aa}">
+		<property name="name">
+			<value>SFX</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{07eedef3-1f5e-4606-89c4-b8d93c235aac}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8b0aa18a-8fc5-49ff-b9b2-032318642caf}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{18156877-c2f9-4d40-aee3-c11fc12e0f07}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{07eedef3-1f5e-4606-89c4-b8d93c235aac}">
+		<relationship name="effects">
+			<destination>{8d378aa2-0a82-4937-b45e-5601cc22eb5f}</destination>
+			<destination>{b22316f6-8940-4c0d-826d-f426df6821ac}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8b0aa18a-8fc5-49ff-b9b2-032318642caf}" />
+	<object class="CompressorEffect" id="{8d378aa2-0a82-4937-b45e-5601cc22eb5f}">
+		<property name="threshold">
+			<value>-7</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{b22316f6-8940-4c0d-826d-f426df6821ac}" />
+</objects>

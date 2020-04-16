@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{7469a124-852f-4924-8308-c0bf3bdfb787}">
+		<property name="name">
+			<value>Hellfire</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ae62855e-3d88-4a51-b918-8a7919c3c084}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{67e006c5-4115-417e-b584-b593dab88675}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1dcaf260-1db3-4b22-8975-ac73ca18104a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ae62855e-3d88-4a51-b918-8a7919c3c084}">
+		<relationship name="effects">
+			<destination>{a9debe48-4d35-4d65-8292-7eba0a8c9d9c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{67e006c5-4115-417e-b584-b593dab88675}" />
+	<object class="MixerBusFader" id="{a9debe48-4d35-4d65-8292-7eba0a8c9d9c}" />
+</objects>

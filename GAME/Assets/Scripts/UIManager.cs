@@ -32,8 +32,10 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private GameObject audioManagerPrefab;
 
-    private AudioManager audioManager; 
-    
+    private AudioManager audioManager;
+    FMOD.Studio.EventInstance pauseSnapshot;
+    FMOD.Studio.EventInstance bossSnapshot;
+
     private List<(Pickup, GameObject)> activePickups = new List<(Pickup, GameObject)>();
     
     private Vector3[] pickupPositions = {
@@ -62,6 +64,9 @@ public class UIManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        pauseSnapshot = FMODUnity.RuntimeManager.CreateInstance("snapshot:/Pause");
+        bossSnapshot = FMODUnity.RuntimeManager.CreateInstance("snapshot:/Boss Level");
+
         if (GameObject.Find("AudioManager(Clone)") == null)
             audioManager = Instantiate(audioManagerPrefab).GetComponent<AudioManager>(); 
         else
@@ -165,14 +170,16 @@ public class UIManager : MonoBehaviour
         int newSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
         audioManager.PlaySpookyMusic();
+        bossSnapshot.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
 
         if (newSceneIndex == 7 || newSceneIndex == 13)
         {
             audioManager.PlayBossMusic();
+            bossSnapshot.start(); 
         }
         //else if (newSceneIndex == 8)
         //{
-        //    audioManager.PlaySpookyMusic(); 
+        //    bossSnapshot.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); 
         //}
         else if (newSceneIndex == 14)
         {
@@ -195,6 +202,9 @@ public class UIManager : MonoBehaviour
         almanacCanvas.SetActive(false);
 
         paused = true;
+
+        //pauseSnapshot = FMODUnity.RuntimeManager.CreateInstance("snapshot:/Pause");
+        pauseSnapshot.start();
     }
 
     public void ResumeGame()
@@ -205,7 +215,10 @@ public class UIManager : MonoBehaviour
 
         pauseCanvas.SetActive(false);
 
-        paused = false; 
+        paused = false;
+
+        pauseSnapshot.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        //pauseSnapshot.release();
     }
 
     public void AlmanacVisible()

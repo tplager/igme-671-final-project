@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using FMODUnity; 
+using FMODUnity;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Manages Audio in the scene
@@ -19,7 +20,12 @@ public class AudioManager : MonoBehaviour
 
     private StudioEventEmitter menuMusic;
     private StudioEventEmitter bossMusic;
-    private StudioEventEmitter spookyMusic; 
+    private StudioEventEmitter spookyMusic;
+
+    //private Dresden player;
+
+    //private string previousLevelName;
+    //private string currentLevelName; 
     #endregion
 
     // Start is called before the first frame update
@@ -50,7 +56,10 @@ public class AudioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //if (player == null)
+        //    player = GameObject.Find("Dresden").GetComponent<Dresden>();
+
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("PlayerHealth", GameObject.Find("Dresden").GetComponent<Dresden>().Health / GameObject.Find("Dresden").GetComponent<Dresden>().MAX_HEALTH); 
     }
 
     public void PlayMenuMusic()

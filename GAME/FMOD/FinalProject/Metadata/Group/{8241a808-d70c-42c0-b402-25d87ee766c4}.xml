@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{8241a808-d70c-42c0-b402-25d87ee766c4}">
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
+		<property name="name">
+			<value>Soulfire</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c0fbc18b-2057-43a1-85a3-7c9c38686bb6}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8eed401e-a2ef-454d-9ea4-94a8be8da501}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1dcaf260-1db3-4b22-8975-ac73ca18104a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c0fbc18b-2057-43a1-85a3-7c9c38686bb6}">
+		<relationship name="effects">
+			<destination>{03f8f345-33bb-4e3e-9267-7e8aa4302b87}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8eed401e-a2ef-454d-9ea4-94a8be8da501}" />
+	<object class="MixerBusFader" id="{03f8f345-33bb-4e3e-9267-7e8aa4302b87}" />
+</objects>

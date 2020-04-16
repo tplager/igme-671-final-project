@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{b231e2e9-e3e5-461a-8d94-58e8e4382d38}">
+		<property name="volume">
+			<value>0.5</value>
+		</property>
+		<property name="name">
+			<value>Healing Tile</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{d64d0180-4bb7-4a72-ab85-95c2de8a20db}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8a0e16f4-e1f0-46be-b0d2-7c8608ab8ed4}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1dcaf260-1db3-4b22-8975-ac73ca18104a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{d64d0180-4bb7-4a72-ab85-95c2de8a20db}">
+		<relationship name="effects">
+			<destination>{771960c8-7447-4917-b358-3ca72e8da077}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8a0e16f4-e1f0-46be-b0d2-7c8608ab8ed4}" />
+	<object class="MixerBusFader" id="{771960c8-7447-4917-b358-3ca72e8da077}" />
+</objects>

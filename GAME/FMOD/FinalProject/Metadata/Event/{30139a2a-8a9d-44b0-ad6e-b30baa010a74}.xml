@@ -56,7 +56,7 @@
 			<destination>{4680908e-b324-467c-9dbe-855a660eb0e6}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{18156877-c2f9-4d40-aee3-c11fc12e0f07}</destination>
+			<destination>{bba4ba41-4c8e-44b6-bb51-80f0d694e45b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9b6c4060-8489-47ab-bb47-2dcb5b1d0402}" />
@@ -163,6 +163,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{524ca2ec-f5e8-43c9-9af6-fd08d1c4adc1}">
 		<relationship name="effects">
+			<destination>{581a8363-6fbf-4cd0-92df-7f243b373f27}</destination>
 			<destination>{68338e58-f17b-4917-bbed-902c761c2256}</destination>
 		</relationship>
 	</object>
@@ -183,6 +184,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{20a6e491-2d32-4778-bacb-25713d4074d9}" />
+	<object class="CompressorEffect" id="{581a8363-6fbf-4cd0-92df-7f243b373f27}">
+		<property name="threshold">
+			<value>-15</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{68338e58-f17b-4917-bbed-902c761c2256}" />
 	<object class="AutomationCurve" id="{fd6a8d33-348f-4000-b76b-2fe5ec234b80}">
 		<relationship name="parameter">

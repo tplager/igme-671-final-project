@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerVCA" id="{b6edeb93-d45c-492d-b0d5-1ba50010d004}">
+		<property name="name">
+			<value>Healing Tile</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{e4f3c684-6be1-4ed5-a1b2-544cbc9a6bc4}</destination>
+		</relationship>
+	</object>
+</objects>

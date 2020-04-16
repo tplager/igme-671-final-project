@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{005f55e5-270b-476f-8af4-6ec8325dd890}">
+		<property name="name">
+			<value>Fireball</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b7ebe0f8-e7b4-40fb-9dff-1fe6d9d46456}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0d2f097e-11b8-47e0-9f94-d4d5da5fad0b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{588656bd-b54e-46cb-977c-94718f5fa8aa}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b7ebe0f8-e7b4-40fb-9dff-1fe6d9d46456}">
+		<relationship name="effects">
+			<destination>{50f3ff98-b0d0-47a9-a989-c683ea0b5af1}</destination>
+			<destination>{d376b411-df55-4102-b14f-02d46672338a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0d2f097e-11b8-47e0-9f94-d4d5da5fad0b}" />
+	<object class="CompressorEffect" id="{50f3ff98-b0d0-47a9-a989-c683ea0b5af1}">
+		<property name="threshold">
+			<value>-12.5</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{d376b411-df55-4102-b14f-02d46672338a}" />
+</objects>
