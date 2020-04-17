@@ -59,7 +59,8 @@ public class AudioManager : MonoBehaviour
         //if (player == null)
         //    player = GameObject.Find("Dresden").GetComponent<Dresden>();
 
-        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("PlayerHealth", GameObject.Find("Dresden").GetComponent<Dresden>().Health / GameObject.Find("Dresden").GetComponent<Dresden>().MAX_HEALTH); 
+        if (GameObject.Find("Dresden") != null)
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("PlayerHealth", GameObject.Find("Dresden").GetComponent<Dresden>().Health / GameObject.Find("Dresden").GetComponent<Dresden>().MAX_HEALTH); 
     }
 
     public void PlayMenuMusic()
