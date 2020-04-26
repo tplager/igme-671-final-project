@@ -147,6 +147,12 @@
 		<property name="spawnRate">
 			<value>400</value>
 		</property>
+		<property name="minimumScatterDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>0</value>
+		</property>
 		<property name="volumeRandomization">
 			<value>-4</value>
 		</property>

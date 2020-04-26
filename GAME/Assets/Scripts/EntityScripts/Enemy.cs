@@ -103,7 +103,8 @@ void Start()
                 {
                     GameObject[] walls = GameObject.FindGameObjectsWithTag("EndWall");
 
-                    GameObject.Find("ExitSign").GetComponent<StudioEventEmitter>().Play();
+                    if (GameObject.Find("ExitSign") != null)
+                        GameObject.Find("ExitSign").GetComponent<StudioEventEmitter>().Play();
                     //Debug.Log(GameObject.Find("ExitSign").GetComponent<StudioEventEmitter>().IsPlaying());
                     if (walls.Length != 0)
                     {

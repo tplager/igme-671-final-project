@@ -5,7 +5,7 @@
 			<value>PlayerAmbiance</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c14b4605-2527-4fc9-8ab3-3ea7a80aa89c}</destination>
@@ -133,6 +133,12 @@
 		<property name="spawnRate">
 			<value>200</value>
 		</property>
+		<property name="minimumScatterDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>0</value>
+		</property>
 		<property name="volumeRandomization">
 			<value>-2</value>
 		</property>
@@ -148,7 +154,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0e4d59ac-f325-453e-b65b-9ec6a94fb837}">
 		<property name="volume">
-			<value>10</value>
+			<value>-2.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -170,6 +176,12 @@
 		<property name="spawnRate">
 			<value>60</value>
 		</property>
+		<property name="minimumScatterDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>0</value>
+		</property>
 		<relationship name="triggerConditions">
 			<destination>{4c2452c8-2107-45b9-a80c-490137f4beda}</destination>
 		</relationship>
@@ -179,7 +191,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{948f200e-4aee-4ecb-88ca-228219d18220}">
 		<property name="volume">
-			<value>-3</value>
+			<value>-7</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -207,6 +219,12 @@
 	<object class="SoundScatterer" id="{d202d59b-1a33-4904-9901-d1ababadd282}">
 		<property name="length">
 			<value>2</value>
+		</property>
+		<property name="minimumScatterDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>0</value>
 		</property>
 		<property name="volumeRandomization">
 			<value>-2</value>
@@ -260,7 +278,14 @@
 			<destination>{3ac74b6f-c171-461e-b1fb-8fa813744d08}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{8a85a57d-390c-45b2-983b-00bffe9810fe}" />
+	<object class="MixerBusPanner" id="{8a85a57d-390c-45b2-983b-00bffe9810fe}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{53065dcd-918c-4d45-9082-787ee28c3385}" />
 	<object class="ParameterCondition" id="{be453bae-1885-4241-85bc-61c41136bdbf}">
 		<property name="minimum">
@@ -463,7 +488,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-20.7857132</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{b0b27734-79eb-49f7-8d91-62f19d8c6bcb}">
@@ -471,7 +496,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>10</value>
+			<value>-10.5499992</value>
 		</property>
 	</object>
 </objects>

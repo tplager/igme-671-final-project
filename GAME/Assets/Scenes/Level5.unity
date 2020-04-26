@@ -13099,6 +13099,8 @@ MonoBehaviour:
   scoreText: {fileID: 2021280510}
   blankPickupPrefab: {fileID: 2202582850577053092, guid: 19c61bf896533dc4da51abc127d83344,
     type: 3}
+  audioManagerPrefab: {fileID: 8047089150569024608, guid: 2cd307c4546c1e04fa2344dd80f6c1a8,
+    type: 3}
 --- !u!114 &468174083
 MonoBehaviour:
   m_ObjectHideFlags: 0

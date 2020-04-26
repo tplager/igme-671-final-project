@@ -5,7 +5,7 @@
 			<value>PlayerHealing</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4fd041b1-369d-4cb0-8fba-c7f05ec8e0bd}</destination>
@@ -89,7 +89,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{f99acfe3-13b0-4544-935e-6333d804b58a}">
 		<property name="volume">
-			<value>-6</value>
+			<value>3</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{e161efba-1096-4840-a740-4701a9dc3dcf}</destination>
@@ -203,7 +203,14 @@
 			<destination>{97a9afbe-a98b-4be7-af08-41b337c75b53}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{69251428-3a2a-4c2f-9628-d0c3358823da}" />
+	<object class="MixerBusPanner" id="{69251428-3a2a-4c2f-9628-d0c3358823da}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{5ca4faba-020b-4591-bb20-275dca3d56f2}" />
 	<object class="MixerBusEffectChain" id="{25fb3afe-0659-4e3f-9d7c-3118628d1734}">
 		<relationship name="effects">

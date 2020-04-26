@@ -5,7 +5,7 @@
 			<value>PlayerHit</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4fd041b1-369d-4cb0-8fba-c7f05ec8e0bd}</destination>
@@ -73,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{9ed9fdb5-0dc7-4752-81be-b22671451ee6}">
 		<property name="volume">
-			<value>3</value>
+			<value>9</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{92fea246-315c-42c7-a342-6ba10e084bac}</destination>
@@ -98,8 +98,17 @@
 		<property name="totalSounds">
 			<value>1</value>
 		</property>
+		<property name="minimumScatterDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>0</value>
+		</property>
 		<property name="volumeRandomization">
-			<value>-2</value>
+			<value>-1</value>
+		</property>
+		<property name="pitchRandomization">
+			<value>1.0999999</value>
 		</property>
 		<relationship name="sound">
 			<destination>{152afa58-68de-46da-b722-fe2d04af5e7c}</destination>
@@ -127,7 +136,14 @@
 			<destination>{804e6e00-ac5e-4564-9cd1-5fb47364233c}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{6617a0cd-a245-4134-80ae-78607b395a5a}" />
+	<object class="MixerBusPanner" id="{6617a0cd-a245-4134-80ae-78607b395a5a}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{e34b8490-e52b-4285-970b-c203260b4daa}" />
 	<object class="MultiSound" id="{152afa58-68de-46da-b722-fe2d04af5e7c}">
 		<relationship name="sounds">

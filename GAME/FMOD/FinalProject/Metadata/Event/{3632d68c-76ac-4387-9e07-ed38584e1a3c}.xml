@@ -5,7 +5,7 @@
 			<value>HealingTileAmbiance2D</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c14b4605-2527-4fc9-8ab3-3ea7a80aa89c}</destination>
@@ -155,6 +155,12 @@
 		<property name="spawnRate">
 			<value>120</value>
 		</property>
+		<property name="minimumScatterDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>0</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{1de49fe8-7ba6-4fe9-a015-b4ef93263bb3}</destination>
 			<destination>{032599e7-e19e-4e0e-9fec-7553182d647b}</destination>
@@ -186,6 +192,12 @@
 		</property>
 		<property name="spawnRate">
 			<value>80</value>
+		</property>
+		<property name="minimumScatterDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>0</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{6b257024-c861-4347-9bc3-1d6cb24dc677}</destination>
@@ -245,7 +257,14 @@
 			<destination>{52b0e84b-ee79-468b-9c7d-984d4922b147}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{f614c4b0-78d2-4e4f-b166-4eace6cb968f}" />
+	<object class="MixerBusPanner" id="{f614c4b0-78d2-4e4f-b166-4eace6cb968f}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{2966e078-65bf-4cb9-b92c-e37c5d343a74}" />
 	<object class="MixerBusEffectChain" id="{4031d346-c317-463b-8435-1c790aa253d1}">
 		<relationship name="effects">

@@ -96,7 +96,10 @@ public class Projectile : MonoBehaviour
                 foreach (StudioEventEmitter stevem in collision.gameObject.GetComponents<StudioEventEmitter>())
                 {
                     if (stevem.Event == "event:/SFX/PlayerHit")
-                        stevem.Play(); 
+                    {
+                        stevem.Play();
+                        break;
+                    }
                 } 
             }
             collision.gameObject.GetComponent<Vehicle>().Health -= damage;
