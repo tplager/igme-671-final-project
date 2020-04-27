@@ -50,6 +50,11 @@ void Start()
         {
             if (em.Event == "event:/Ambience/VampireAmbiance" || em.Event == "event:/Ambience/HellhoundAmbiance")
                 ambiance = em;
+
+            if ((em.Event == "event:/SFX/EnemyHit" || em.Event == "event:/SFX/EnemyMeleeAttack") && isBoss)
+            {
+                em.SetParameter("IsBoss", Convert.ToSingle(isBoss));
+            }
         }
 
         attackRange = 1.5f;

@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000020F78111DC8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000028081172EC8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -15,50 +15,195 @@
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/Trent/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-qeZYUK/hotswap_113.bank
+[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/Trent/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-qeZYUK/hotswap_113.bank'
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 261600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 15296
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000C0201AF52C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA6424C320
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA6424C2F0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA6424C3F0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA6424C4B0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002803D972D08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fireball Fire', format=2, channels=2, frequency=48000, lengthbytes=7520, lengthpcm=36011, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 261600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 15296
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000C0201AF52C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA6424C320
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA6424C2F0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA6424C3F0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA6424C4B0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002803D972D08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fireball Charge', format=2, channels=2, frequency=48000, lengthbytes=20128, lengthpcm=98397, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.382604.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 261600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 15296
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000C0201AF52C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA6424C320
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA6424C2F0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA6424C3F0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA6424C4B0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002803D972D08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Vampire Hit', format=2, channels=2, frequency=48000, lengthbytes=12608, lengthpcm=52101, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.925128.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 261600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 15296
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000C0201AF52C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA6424C320
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA6424C2F0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA6424C3F0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA6424C4B0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002803D972D08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fireball Hit', format=2, channels=2, frequency=48000, lengthbytes=6784, lengthpcm=32399, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.946116.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 261600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 15296
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000C0201AF52C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA6424C320
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA6424C2F0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA6424C3F0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA6424C4B0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002803D972D08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Hellhound Hit', format=2, channels=2, frequency=48000, lengthbytes=5376, lengthpcm=24881, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.669761.
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
+[LOG] SoundI::release                          :  (0000028040398428)
+[LOG] SoundI::release                          :     Fireball Hit (000002803F7301C8)
+[LOG] SoundI::release                          :  (000002806457E098)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing 1 (0000028081C71BA8)
+[LOG] SoundI::release                          :  (000002806457F4B8)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing 2 (000002803D562398)
+[LOG] SoundI::release                          :  (0000028081E4B328)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing 3 (000002803D560E78)
+[LOG] SoundI::release                          :  (000002806457D968)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing 4 (0000028081C6D768)
+[LOG] SoundI::release                          :  (0000028081E4B498)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing 5 (000002803D5638B8)
+[LOG] SoundI::release                          :  (0000028081E4C5D8)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing-001 (000002803D562538)
+[LOG] SoundI::release                          :  (0000028081E4DB68)
+[LOG] SoundI::release                          :     Player Ambiance_Heavy Breathing-002 (000002803D564278)
+[LOG] SoundI::release                          :  (000002806457EAA8)
+[LOG] SoundI::release                          :     Cloth Rustling 2 (000002803D562EF8)
+[LOG] SoundI::release                          :  (000002806457C828)
+[LOG] SoundI::release                          :     Cloth Rustling 4 (0000028081C70688)
+[LOG] SoundI::release                          : Menu Music (00000280898D1C18)
+[LOG] SoundI::release                          :     Menu Music (0000028081C70008)
+[LOG] SoundI::release                          :     Menu Music (00000280898D22D8)
+[LOG] SoundI::release                          :  (0000028081E4AA88)
+[LOG] SoundI::release                          :     Footstep 10 (000002803D560B38)
+[LOG] SoundI::release                          :  (000002806457F798)
+[LOG] SoundI::release                          :     Footstep 11 (000002803D5640D8)
+[LOG] SoundI::release                          :  (0000028081E4BD38)
+[LOG] SoundI::release                          :     Footstep 12 (000002803D5648F8)
+[LOG] SoundI::release                          :  (0000028081E4B8E8)
+[LOG] SoundI::release                          :     Footstep 8 (000002803D561018)
+[LOG] SoundI::release                          :  (000002806457D3A8)
+[LOG] SoundI::release                          :     Footstep 9 (0000028081C70D08)
+[LOG] SoundI::release                          :  (0000028081E4B1B8)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 8 (000002803D561B78)
+[LOG] SoundI::release                          :  (0000028081E4BEA8)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 7 (000002803D560CD8)
+[LOG] SoundI::release                          :  (000002806457D7F8)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 6 (0000028081C6F648)
+[LOG] SoundI::release                          :  (000002806457F068)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 5 (0000028081C6DC48)
+[LOG] SoundI::release                          :  (000002806457ED88)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 4 (000002803D563578)
+[LOG] SoundI::release                          :  (000002806457E7C8)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 3 (0000028081C6F168)
+[LOG] SoundI::release                          :  (000002806457EC18)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 2 (000002803D5633D8)
+[LOG] SoundI::release                          :  (000002806457DF28)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Fire Spark 1 (000002803D563F38)
+[LOG] SoundI::release                          :  (0000028081E4A4C8)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Magic Circle (000002803D564758)
+[LOG] SoundI::release                          :  (000002806457D0C8)
+[LOG] SoundI::release                          :     Healing Tile Ambiance_Electric Spark (0000028081C6EFC8)
+[LOG] SoundI::release                          :  (000002806457DDB8)
+[LOG] SoundI::release                          :     Vampire Ambiance_Hissing 2 (000002803D5626D8)
+[LOG] SoundI::release                          :  (0000028081E4AED8)
+[LOG] SoundI::release                          :     Vampire Ambiance_Hissing 1 (000002803D562A18)
+[LOG] SoundI::release                          :  (000002806457E938)
+[LOG] SoundI::release                          :     Footstep 1 (0000028081C71528)
+[LOG] SoundI::release                          :  (0000028081E4CB98)
+[LOG] SoundI::release                          :     Footstep 2 (000002803D5645B8)
+[LOG] SoundI::release                          :  (000002806457F628)
+[LOG] SoundI::release                          :     Footstep 3 (0000028081C738E8)
+[LOG] SoundI::release                          :  (000002806457DAD8)
+[LOG] SoundI::release                          :     Footstep 4 (0000028081C6F4A8)
+[LOG] SoundI::release                          :  (000002806457F348)
+[LOG] SoundI::release                          :     Footstep 5 (0000028081C70B68)
+[LOG] SoundI::release                          :  (0000028081E4C468)
+[LOG] SoundI::release                          :     Footstep 6 (000002803D563098)
+[LOG] SoundI::release                          :  (000002806457DC48)
+[LOG] SoundI::release                          :     Footstep 7 (0000028081C71388)
+[LOG] SoundI::release                          :  (0000028081E4BBC8)
+[LOG] SoundI::release                          :     Cloth Rustling 1 (000002803D561D18)
+[LOG] SoundI::release                          :  (000002806457D238)
+[LOG] SoundI::release                          :     Cloth Rustling 3 (0000028081C6F308)
+[LOG] SoundI::release                          :  (000002806457C6B8)
+[LOG] SoundI::release                          :     Cloth Rustling 5 (0000028081C709C8)
+[LOG] SoundI::release                          :  (0000028081E4C748)
+[LOG] SoundI::release                          :     Health Alert (000002803D5611B8)
+[LOG] SoundI::release                          :  (0000028040399848)
+[LOG] SoundI::release                          :     Fireball Charge (000002803D5619D8)
+[LOG] SoundI::release                          :  (00000280403982B8)
+[LOG] SoundI::release                          :     Fireball Fire (000002803D561838)
+[LOG] SoundI::release                          :  (0000028040398E38)
+[LOG] SoundI::release                          :     Hellhound Hit (000002803F7313A8)
+[LOG] SoundI::release                          :  (0000028040398598)
+[LOG] SoundI::release                          :     Vampire Hit (000002803F7323E8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] ProfileClient::markForDead               : Closing client connection
-[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] Thread::callback                         : FMOD profiler thread (send) finished.
-[LOG] LiveUpdate::clientDisconnected           : client = 00000210AEE8D478
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::initThread                       : Init FMOD profiler thread (recv). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
-[LOG] Thread::initThread                       : Init FMOD profiler thread (send). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
-[LOG] LiveUpdate::clientConnected              : client = 0000020F743616E8
-[LOG] LiveUpdate::readPacket                   : Recieved init packet from client 0000020F743616E8
-[LOG] LiveUpdate::readPacket                   : Accepting init message for client 0000020F743616E8
-[LOG] LiveUpdate::transitionToConnected        : 
-[LOG] LiveUpdate::acceptInitPacket             : Client 0000020F743616E8 connected, entering connected state
-[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
-[LOG] ProfileClient::markForDead               : Closing client connection
+[LOG] FMOD_OS_Net_Read                         : Interrupted.[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
 [LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
-[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
-[LOG] LiveUpdate::clientDisconnected           : client = 0000020F743616E8
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
 [LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::initThread                       : Init FMOD profiler thread (recv). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
-[LOG] Thread::initThread                       : Init FMOD profiler thread (send). Priority: 0, Stack Size: 131072, Semaphore: No, Sleep Time: 0, Looping: No.
-[LOG] LiveUpdate::clientConnected              : client = 0000020ECF1E4348
-[LOG] LiveUpdate::readPacket                   : Recieved init packet from client 0000020ECF1E4348
-[LOG] LiveUpdate::readPacket                   : Accepting init message for client 0000020ECF1E4348
-[LOG] LiveUpdate::transitionToConnected        : 
-[LOG] Manager::sendConnectTimeHash             : 
-[LOG] LiveUpdate::sendBankHash                 : 
-[LOG] LiveUpdate::acceptInitPacket             : Client 0000020ECF1E4348 connected, entering connected state
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/Trent/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-WFTq0y/hotswap_1188.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/Trent/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-WFTq0y/hotswap_1188.bank'
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/Trent/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-WFTq0y/hotswap_1189.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/Trent/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-WFTq0y/hotswap_1189.bank'
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::receiveLiveUpdateBank           : Received live update bank path: fmod:///remote/C:/Users/Trent/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-WFTq0y/hotswap_1190.bank
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/Trent/AppData/Local/FMOD Studio/UnsavedProjects/Hotswap-WFTq0y/hotswap_1190.bank'
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 125)
@@ -75,4 +220,6 @@
 [LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
 [LOG] SystemI::close                           : Closed.

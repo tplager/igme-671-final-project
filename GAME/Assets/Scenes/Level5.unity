@@ -13266,6 +13266,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1626097131}
     m_Modifications:
+    - target: {fileID: -4999191285112616584, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -946964966980260938, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -946964966980260938, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.data[1].Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -946964966980260938, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.data[2].Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -946964966980260938, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.data[3].Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -946964966980260938, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.data[4].Value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1366386195629985017, guid: 590892d7f1297374982701bc52df2ef1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13430,6 +13460,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060450891503608076, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060450891503608076, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.data[1].Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060450891503608076, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.data[2].Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060450891503608076, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.data[3].Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060450891503608076, guid: 590892d7f1297374982701bc52df2ef1,
+        type: 3}
+      propertyPath: Params.Array.data[4].Value
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}

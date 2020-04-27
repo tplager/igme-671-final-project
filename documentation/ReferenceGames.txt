@@ -1,0 +1,9 @@
+Enter the Gungeon: 
+	-16.2 Integrated
+	12.1 Dynamic Range
+	-11.9 Short Term Max
+
+Tangledeep: 
+	-17.2 Integrated
+	14.0 Dynamic Range
+	-15.8 Short Term Max
