@@ -321,9 +321,6 @@
 		<property name="minimumDistance">
 			<value>0</value>
 		</property>
-		<property name="maximumDistance">
-			<value>15</value>
-		</property>
 	</object>
 	<object class="MixerBusFader" id="{36cb8ca9-922d-46ea-b421-9f4980796b22}" />
 	<object class="SingleSound" id="{a1097357-fc15-40d0-8afb-d896b5dfab8c}">

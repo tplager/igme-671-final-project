@@ -91,6 +91,12 @@
 		<property name="volume">
 			<value>3</value>
 		</property>
+		<property name="overridingInputFormat">
+			<value>1</value>
+		</property>
+		<property name="inputFormatOverridden">
+			<value>true</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{e161efba-1096-4840-a740-4701a9dc3dcf}</destination>
 		</relationship>

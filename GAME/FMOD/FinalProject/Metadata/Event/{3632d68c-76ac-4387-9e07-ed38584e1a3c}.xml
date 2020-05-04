@@ -98,6 +98,12 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f015ac6c-9686-4389-9209-dd381c4c17fe}">
+		<property name="overridingInputFormat">
+			<value>1</value>
+		</property>
+		<property name="inputFormatOverridden">
+			<value>true</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{83035e7e-b125-44f6-bfb0-09cdc030cdb7}</destination>
 		</relationship>
@@ -271,7 +277,14 @@
 			<destination>{78a1bc1a-ee74-4b91-a116-108e79b2b317}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{7b2c5b04-f52c-426e-8612-df03bc7e8864}" />
+	<object class="MixerBusPanner" id="{7b2c5b04-f52c-426e-8612-df03bc7e8864}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{1de49fe8-7ba6-4fe9-a015-b4ef93263bb3}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
@@ -305,7 +318,14 @@
 			<destination>{a1ca504b-cc03-4308-969d-58f4d3e8ddd8}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{1e424c7d-db1b-49e4-bc81-a537b2351f51}" />
+	<object class="MixerBusPanner" id="{1e424c7d-db1b-49e4-bc81-a537b2351f51}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{6b257024-c861-4347-9bc3-1d6cb24dc677}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
@@ -332,7 +352,14 @@
 			<destination>{99143519-8e55-410c-ab17-37256c69088b}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{5df69f86-baa5-41e6-b657-b1f544f477ee}" />
+	<object class="MixerBusPanner" id="{5df69f86-baa5-41e6-b657-b1f544f477ee}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{52b0e84b-ee79-468b-9c7d-984d4922b147}" />
 	<object class="MixerBusFader" id="{78a1bc1a-ee74-4b91-a116-108e79b2b317}" />
 	<object class="SingleSound" id="{85e6b9cd-3441-4727-bd0e-4f79de69d47e}">

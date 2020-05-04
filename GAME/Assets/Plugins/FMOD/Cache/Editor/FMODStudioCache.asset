@@ -124,6 +124,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-9006985577958772705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-9006464690597315391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,6 +156,41 @@ MonoBehaviour:
   Path: FMOD/FinalProject/Build/Desktop/Interface.bank
   SubDir: 
   lastModified: 637235065320900628
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8998078503458818201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
+--- !u!114 &-8988697831944689343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambiance.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Ambiance.bank
+  SubDir: 
+  lastModified: 637241500361105420
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -349,7 +401,7 @@ MonoBehaviour:
   Path: event:/UI/HitPauseKey
   guid: 826e5f41ac84f24b8e4b92856c87e8b0
   Banks:
-  - {fileID: 703439963134715659}
+  - {fileID: 5070241319707716592}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -358,6 +410,23 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 6000
 --- !u!114 &-8815148987734637152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
+--- !u!114 &-8746613517551360881
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -426,6 +495,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8696839811486241824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-8688108806209865112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-8647517179547765701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,6 +544,41 @@ MonoBehaviour:
   Path: FMOD/FinalProject/Build/Desktop/Dialogue.bank
   SubDir: 
   lastModified: 637215158215016505
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8633251047734474175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dialogue/DialogueNumber
+  m_EditorClassIdentifier: 
+  Name: DialogueNumber
+  Min: 1
+  Max: 7
+  Default: 1
+  Exists: 0
+--- !u!114 &-8610262688854799593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interface.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Interface.bank
+  SubDir: 
+  lastModified: 637235850148077889
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -585,6 +723,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8419208416085306029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &-8404160867907296482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -634,6 +789,24 @@ MonoBehaviour:
   Path: FMOD/FinalProject/Build/Desktop/Ambiance.bank
   SubDir: 
   lastModified: 637215245992900861
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8379325735241826615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambiance.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Ambiance.bank
+  SubDir: 
+  lastModified: 637241504656199351
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -844,6 +1017,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8140567641365310349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &-8124681412167872336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -861,6 +1051,24 @@ MonoBehaviour:
   Max: 7
   Default: 1
   Exists: 0
+--- !u!114 &-8072350866773509394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interface.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Interface.bank
+  SubDir: 
+  lastModified: 637235850148077889
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8024226991847479723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -877,7 +1085,7 @@ MonoBehaviour:
   Min: 1
   Max: 7
   Default: 1
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8003972580229679362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -893,7 +1101,7 @@ MonoBehaviour:
   Path: event:/Music/SpookyMusic
   guid: 2a9a13309d8ab044ad6eb30baa010a74
   Banks:
-  - {fileID: -4020833724704061187}
+  - {fileID: -4374212953363896473}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -916,7 +1124,7 @@ MonoBehaviour:
   Path: event:/Dialog/Tutorial4
   guid: b0d490c2551be04389a1ca789b09c5a0
   Banks:
-  - {fileID: -6768145910294865942}
+  - {fileID: 4865344532095638327}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -939,7 +1147,7 @@ MonoBehaviour:
   Path: event:/Dialog/Tutorial2
   guid: 2c47f9f8cf11c24787e828cf3921687f
   Banks:
-  - {fileID: -6768145910294865942}
+  - {fileID: 4865344532095638327}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -981,6 +1189,24 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 0
+--- !u!114 &-7916116213277739504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637235850210136963
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-7891519680580185883
 MonoBehaviour:
@@ -1121,6 +1347,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7832380843491727785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &-7817763155391112302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1188,13 +1431,13 @@ MonoBehaviour:
   Path: event:/Ambience/HellhoundAmbiance
   guid: 65a4513c662f7943b8bae90e216bb124
   Banks:
-  - {fileID: 6919992182990154043}
+  - {fileID: -5273568650342511543}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 4694242528017660567}
-  - {fileID: -3543717260409558381}
+  - {fileID: -7832380843491727785}
+  - {fileID: 1728446111340883475}
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
@@ -1302,6 +1545,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-7641550988353185654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637241496607257314
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-7629551923409084266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1335,13 +1596,13 @@ MonoBehaviour:
   Path: event:/SFX/EnemyHit
   guid: 63d39f5cf902ea4286744b2b036eb4d1
   Banks:
-  - {fileID: -3398857911429124627}
+  - {fileID: 1720137294389931874}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 8462585631224047883}
-  - {fileID: 3259560905075229807}
+  - {fileID: -7402599457303981164}
+  - {fileID: -8419208416085306029}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -1448,6 +1709,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7402599457303981164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &-7389431070385916956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1501,6 +1779,23 @@ MonoBehaviour:
   lastModified: 637215264734658061
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-7370530975788945272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &-7368365269275909344
 MonoBehaviour:
@@ -1612,6 +1907,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-7271585872933972368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-7259437303300263418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1700,6 +2012,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7060242602148899714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
 --- !u!114 &-7056695448252944676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1823,6 +2152,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-6866255085862859485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637235850106369351
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6849544473712445794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1872,7 +2219,7 @@ MonoBehaviour:
   Path: event:/SFX/PlayerHit
   guid: c5ad07b621273d4e8b9560492533bc62
   Banks:
-  - {fileID: -3398857911429124627}
+  - {fileID: 1720137294389931874}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1915,7 +2262,7 @@ MonoBehaviour:
   lastModified: 637235850106369351
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6752945346145883392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2074,6 +2421,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6500631168585777302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dialogue/DialogueNumber
+  m_EditorClassIdentifier: 
+  Name: DialogueNumber
+  Min: 1
+  Max: 7
+  Default: 1
+  Exists: 0
 --- !u!114 &-6469835667201521161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2178,6 +2542,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-6332758857274555081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dialogue/DialogueNumber
+  m_EditorClassIdentifier: 
+  Name: DialogueNumber
+  Min: 1
+  Max: 7
+  Default: 1
+  Exists: 0
 --- !u!114 &-6301423508833255461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2241,6 +2622,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/VampireAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-6169387683623046102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerAmbiance/Moving
   m_EditorClassIdentifier: 
   Name: Moving
   Min: 0
@@ -2447,6 +2845,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5862517647055078432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-5860033867287107765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2514,6 +2929,24 @@ MonoBehaviour:
   Path: FMOD/FinalProject/Build/Desktop/Dialogue.bank
   SubDir: 
   lastModified: 637235035369174235
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5827009791712519679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637235849518270034
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -2746,7 +3179,7 @@ MonoBehaviour:
   Path: event:/Ambience/SoulfireAmbiance3D
   guid: 3431ea6e4c1bc94e83e34024435093c6
   Banks:
-  - {fileID: 6919992182990154043}
+  - {fileID: -5273568650342511543}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2914,6 +3347,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5447443358200636340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637241504656259191
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-5424574140905324423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2930,6 +3381,24 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 0
+--- !u!114 &-5411027598320835199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637235850106369351
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-5404878526990329656
 MonoBehaviour:
@@ -2983,6 +3452,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5370284750124987739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dialogue/DialogueNumber
+  m_EditorClassIdentifier: 
+  Name: DialogueNumber
+  Min: 1
+  Max: 7
+  Default: 1
+  Exists: 0
 --- !u!114 &-5296340531034749640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3000,6 +3486,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-5273568650342511543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambiance.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Ambiance.bank
+  SubDir: 
+  lastModified: 637241504656199351
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-5247255736846366527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3121,6 +3625,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-5049009335849767496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-5032029735467761758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &-5017008375521609603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3207,7 +3745,7 @@ MonoBehaviour:
   Path: event:/Ambience/Player Health Alert
   guid: e7f8afc979aba743bef642fe6d238bd7
   Banks:
-  - {fileID: 6919992182990154043}
+  - {fileID: -5273568650342511543}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -3356,6 +3894,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4829314332385066113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-4829076523589351662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3392,6 +3947,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4822577063731904715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fireball/HoldingMouse
+  m_EditorClassIdentifier: 
+  Name: HoldingMouse
+  Min: 0
+  Max: 2
+  Default: 1
+  Exists: 1
 --- !u!114 &-4814683710856382629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3424,6 +3996,24 @@ MonoBehaviour:
   Path: FMOD/FinalProject/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637235119921702077
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4783702219144654445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambiance.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Ambiance.bank
+  SubDir: 
+  lastModified: 637241496607197211
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -3477,6 +4067,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &-4722772036033953556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambiance.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Ambiance.bank
+  SubDir: 
+  lastModified: 637241504656199351
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-4721855852360215395
 MonoBehaviour:
@@ -3599,7 +4207,7 @@ MonoBehaviour:
   Path: event:/Ambience/HellfireAmbiance2D
   guid: 95490449c1770c43b809ad1cded57b66
   Banks:
-  - {fileID: 6919992182990154043}
+  - {fileID: -5273568650342511543}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -3622,7 +4230,7 @@ MonoBehaviour:
   Path: event:/UI/Pause Menu Disappear
   guid: 3c74ed771a2a874db4a24d0cc1cbba9d
   Banks:
-  - {fileID: 703439963134715659}
+  - {fileID: 5070241319707716592}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3699,6 +4307,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-4537569908623601652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637235849518270034
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4513235039775257454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3716,6 +4342,23 @@ MonoBehaviour:
   lastModified: 637215249633344534
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-4502603924866777745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: PlayerHealth
+  m_EditorClassIdentifier: 
+  Name: PlayerHealth
+  Min: 0
+  Max: 1
+  Default: 1
   Exists: 0
 --- !u!114 &-4425977259105562205
 MonoBehaviour:
@@ -3752,6 +4395,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4408605754532238605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &-4406900962154887517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3768,7 +4428,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 1
-  Exists: 1
+  Exists: 0
 --- !u!114 &-4397641139425892709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3785,6 +4445,24 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 1
+--- !u!114 &-4374212953363896473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637241504717241944
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &-4369986281362723796
 MonoBehaviour:
@@ -3976,7 +4654,7 @@ MonoBehaviour:
   Path: event:/UI/InventoryItemDisappear
   guid: 2cc38a3115e20947a10b1a234a8ee99f
   Banks:
-  - {fileID: 703439963134715659}
+  - {fileID: 5070241319707716592}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -4158,7 +4836,7 @@ MonoBehaviour:
   lastModified: 637235850210136963
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3994259147047559740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4176,6 +4854,40 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 1
+--- !u!114 &-3953771982437528945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fireball/HoldingMouse
+  m_EditorClassIdentifier: 
+  Name: HoldingMouse
+  Min: 0
+  Max: 2
+  Default: 1
+  Exists: 0
+--- !u!114 &-3922682301200057896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-3894864821408700952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4226,6 +4938,23 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 1
+  Exists: 0
+--- !u!114 &-3867136762752828416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &-3860658031925694567
 MonoBehaviour:
@@ -4347,6 +5076,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3689825024191778509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637241495798584655
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3644553898749513985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4362,12 +5109,12 @@ MonoBehaviour:
   Path: event:/Ambience/PlayerAmbiance
   guid: d74fcb8c49084d4eb074a1d0ded07be1
   Banks:
-  - {fileID: 6919992182990154043}
+  - {fileID: -5273568650342511543}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -2398248789892238524}
+  - {fileID: 7109943848164837680}
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
@@ -4422,7 +5169,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3530043221739427173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4544,7 +5291,7 @@ MonoBehaviour:
   lastModified: 637235849518270034
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3393347938800044778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4629,7 +5376,7 @@ MonoBehaviour:
   Path: event:/Music/MenuMusic
   guid: 83d9b8604c7d4a4a855456ce53ba0969
   Banks:
-  - {fileID: -4020833724704061187}
+  - {fileID: -4374212953363896473}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -4670,6 +5417,23 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 0
+--- !u!114 &-3243807069081229767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
   Exists: 0
 --- !u!114 &-3237347337756305815
 MonoBehaviour:
@@ -4982,7 +5746,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
-  Exists: 1
+  Exists: 0
 --- !u!114 &-2954452343798382426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5264,6 +6028,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-2567812492237537627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dialogue/DialogueNumber
+  m_EditorClassIdentifier: 
+  Name: DialogueNumber
+  Min: 1
+  Max: 7
+  Default: 1
+  Exists: 1
 --- !u!114 &-2563510723712351292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5403,7 +6184,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-2452749417526726076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5422,6 +6203,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2441126053455224609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-2398248789892238524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5438,7 +6236,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-2372719510944034597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5455,6 +6253,23 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 0
+--- !u!114 &-2358367938907778253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
   Exists: 0
 --- !u!114 &-2346381529726106934
 MonoBehaviour:
@@ -5559,7 +6374,7 @@ MonoBehaviour:
   Path: event:/Ambience/HellfireAmbiance3D
   guid: 59e0f3b0a8e6a2478d119040080ceb24
   Banks:
-  - {fileID: 6919992182990154043}
+  - {fileID: -5273568650342511543}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -5725,6 +6540,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2103770305011866755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-2064753418158478831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5738,6 +6570,23 @@ MonoBehaviour:
   m_Name: parameter:/EnemyHit/EnemyType
   m_EditorClassIdentifier: 
   Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-2028559101884156778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
   Min: 0
   Max: 2
   Default: 0
@@ -5878,13 +6727,13 @@ MonoBehaviour:
   Path: event:/SFX/EnemyMeleeAttack
   guid: e3ba3179495d7541bbc5ce92926643a7
   Banks:
-  - {fileID: -3398857911429124627}
+  - {fileID: 1720137294389931874}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -2453888550862514225}
-  - {fileID: 2573514492688990024}
+  - {fileID: -5032029735467761758}
+  - {fileID: -8140567641365310349}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -5910,6 +6759,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-1829830930889327085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-1827613788760455374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6011,7 +6877,7 @@ MonoBehaviour:
   Path: event:/UI/MouseOver
   guid: 0541b5311e5f14489c27672b2060e3a3
   Banks:
-  - {fileID: 703439963134715659}
+  - {fileID: 5070241319707716592}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -6036,6 +6902,23 @@ MonoBehaviour:
   lastModified: 637235125059995552
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-1725034025021594012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &-1724673573744255662
 MonoBehaviour:
@@ -6088,13 +6971,13 @@ MonoBehaviour:
   Path: event:/Ambience/HealingTileAmbiance3D
   guid: 9b3a369ca79be948b7bde9813f59a69e
   Banks:
-  - {fileID: 6919992182990154043}
+  - {fileID: -5273568650342511543}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
-  MaxDistance: 15
+  MaxDistance: 20
   Length: 2150
 --- !u!114 &-1675963748255942291
 MonoBehaviour:
@@ -6225,6 +7108,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-1467999070576222478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637235850106369351
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-1454599757983705452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6260,6 +7161,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 1
+--- !u!114 &-1423018129127241863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fireball/HoldingMouse
+  m_EditorClassIdentifier: 
+  Name: HoldingMouse
+  Min: 0
+  Max: 2
+  Default: 1
+  Exists: 0
 --- !u!114 &-1420744453776431951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6606,7 +7524,7 @@ MonoBehaviour:
   Path: snapshot:/Boss Level
   guid: 5c200e1cefb21e4a9d7ccaddb505e85a
   Banks:
-  - {fileID: 7505124629823471069}
+  - {fileID: 8566253099167703985}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -6841,6 +7759,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-734266168090203215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-721515393855177530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6961,6 +7896,23 @@ MonoBehaviour:
   lastModified: 637235035369174235
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-563735073038123646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: PlayerHealth
+  m_EditorClassIdentifier: 
+  Name: PlayerHealth
+  Min: 0
+  Max: 1
+  Default: 1
   Exists: 0
 --- !u!114 &-552413211199125319
 MonoBehaviour:
@@ -7152,6 +8104,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-210365320261185784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637241500361175227
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-200850806366115223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7259,6 +8229,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-112713903551156562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &-105029300641701903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7294,7 +8281,42 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-71757389927782829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interface.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Interface.bank
+  SubDir: 
+  lastModified: 637235850148077889
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-52239949599165043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-43022371649659861
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7382,6 +8404,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-12518919469657606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dialogue/DialogueNumber
+  m_EditorClassIdentifier: 
+  Name: DialogueNumber
+  Min: 1
+  Max: 7
+  Default: 1
+  Exists: 0
 --- !u!114 &-11571674892524900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7413,12 +8452,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 664177323901158823}
-  - {fileID: 6919992182990154043}
-  - {fileID: -6768145910294865942}
-  - {fileID: 703439963134715659}
-  - {fileID: 7505124629823471069}
-  - {fileID: -4020833724704061187}
-  - {fileID: -3398857911429124627}
+  - {fileID: -5273568650342511543}
+  - {fileID: 4865344532095638327}
+  - {fileID: 5070241319707716592}
+  - {fileID: 8566253099167703985}
+  - {fileID: -4374212953363896473}
+  - {fileID: 1720137294389931874}
   EditorEvents:
   - {fileID: -3644553898749513985}
   - {fileID: -4180944193841661719}
@@ -7458,12 +8497,12 @@ MonoBehaviour:
   - {fileID: -1741677604781318558}
   - {fileID: -4984124334186832441}
   EditorParameters:
-  - {fileID: -2958587317234060409}
+  - {fileID: 6851303404281629892}
   MasterBanks:
-  - {fileID: 7505124629823471069}
+  - {fileID: 8566253099167703985}
   StringsBanks:
   - {fileID: 664177323901158823}
-  stringsBankWriteTime: 637235850181280535
+  stringsBankWriteTime: 637241504774251954
   cacheVersion: 3
 --- !u!114 &26629216003786279
 MonoBehaviour:
@@ -7621,6 +8660,23 @@ MonoBehaviour:
   lastModified: 637235041842586615
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &218176762115666758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &219595023896884791
 MonoBehaviour:
@@ -7915,7 +8971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/FinalProject/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637235850181280535
+  lastModified: 637241504774251954
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -7973,7 +9029,7 @@ MonoBehaviour:
   lastModified: 637235850148077889
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &709534518106848459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8027,6 +9083,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &769925424485900561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &773346784700995691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8043,6 +9116,23 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 0
+--- !u!114 &806268454903906287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
   Exists: 0
 --- !u!114 &822432501209061782
 MonoBehaviour:
@@ -8096,6 +9186,23 @@ MonoBehaviour:
   lastModified: 637235094753724977
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &856591392625177437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
   Exists: 0
 --- !u!114 &866114235490197598
 MonoBehaviour:
@@ -8552,6 +9659,24 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &1527644209337141850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637235849518270034
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &1530419813632298847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8704,15 +9829,32 @@ MonoBehaviour:
   Path: event:/SFX/Fireball
   guid: 9667e038d63c5a4fa23aa22731936227
   Banks:
-  - {fileID: -3398857911429124627}
+  - {fileID: 1720137294389931874}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4406900962154887517}
+  - {fileID: -4822577063731904715}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &1668888854556074906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &1671453867128467362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8799,6 +9941,58 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1697380501246343463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &1720137294389931874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637241504688921288
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &1728446111340883475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
 --- !u!114 &1740381811092386116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8816,6 +10010,23 @@ MonoBehaviour:
   lastModified: 637215158262708019
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &1749909647724349778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &1799626064793201369
 MonoBehaviour:
@@ -8850,6 +10061,23 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &1829982947388361150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &1831924274726235222
 MonoBehaviour:
@@ -9082,6 +10310,23 @@ MonoBehaviour:
   Max: 2
   Default: 1
   Exists: 0
+--- !u!114 &2035903644169550872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &2047111517087424185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9104,6 +10349,41 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &2068980752769855855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &2070534410669794277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637241498202449949
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &2073282933294693986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9206,7 +10486,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
-  Exists: 1
+  Exists: 0
 --- !u!114 &2157084906943288906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9223,7 +10503,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &2163581727789321797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9293,6 +10573,24 @@ MonoBehaviour:
   Path: FMOD/FinalProject/Build/Desktop/Music.bank
   SubDir: 
   lastModified: 637235034177872782
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2299507443353547126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637235850210136963
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -9472,6 +10770,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &2550653670627202192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &2563500893566023031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9505,7 +10820,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &2625768624954678717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9573,7 +10888,7 @@ MonoBehaviour:
   Path: snapshot:/Pause
   guid: 111b16464ee25344a112704276032e6e
   Banks:
-  - {fileID: 7505124629823471069}
+  - {fileID: 8566253099167703985}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -9739,6 +11054,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &2964506449665546666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &2966215116688526579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fireball/HoldingMouse
+  m_EditorClassIdentifier: 
+  Name: HoldingMouse
+  Min: 0
+  Max: 2
+  Default: 1
+  Exists: 0
 --- !u!114 &2999188299357674517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9805,12 +11154,12 @@ MonoBehaviour:
   Path: event:/Dialog/Dialogue
   guid: 9c9057559d361145bfb32714f588940d
   Banks:
-  - {fileID: -6768145910294865942}
+  - {fileID: 4865344532095638327}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -8024226991847479723}
+  - {fileID: -2567812492237537627}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -9865,7 +11214,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &3265409055850077617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10092,7 +11441,7 @@ MonoBehaviour:
   Path: event:/Music/BossMusic
   guid: 544003ae99d66144abdc99d114e5e415
   Banks:
-  - {fileID: -4020833724704061187}
+  - {fileID: -4374212953363896473}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -10311,7 +11660,7 @@ MonoBehaviour:
   Path: event:/SFX/SoulfirePickup
   guid: 8675bd87df277740b22eeb477eb78202
   Banks:
-  - {fileID: -3398857911429124627}
+  - {fileID: 1720137294389931874}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -10391,6 +11740,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3818059031721469404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &3828986708743506829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10407,6 +11773,24 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 0
+--- !u!114 &3897007046053749897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637235850106369351
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &3902578459676547671
 MonoBehaviour:
@@ -10477,7 +11861,7 @@ MonoBehaviour:
   Path: event:/Ambience/SoulfireAmbiance2D
   guid: db63b93e99c6e04fb25051f651b40611
   Banks:
-  - {fileID: 6919992182990154043}
+  - {fileID: -5273568650342511543}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -10647,6 +12031,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 9153
+--- !u!114 &4269704378115299193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &4277604194453355338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10734,6 +12135,23 @@ MonoBehaviour:
   lastModified: 637235034177872782
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &4366976663568056772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &4368114465536024141
 MonoBehaviour:
@@ -10912,6 +12330,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &4572307813109660398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fireball/HoldingMouse
+  m_EditorClassIdentifier: 
+  Name: HoldingMouse
+  Min: 0
+  Max: 2
+  Default: 1
+  Exists: 0
+--- !u!114 &4615963753019697026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: PlayerHealth
+  m_EditorClassIdentifier: 
+  Name: PlayerHealth
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &4628585878278029224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10997,7 +12449,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &4702814375941270181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11049,6 +12501,24 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 0
+--- !u!114 &4728159879316828657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637241504715638266
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &4763018548366427547
 MonoBehaviour:
@@ -11189,6 +12659,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &4865344532095638327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637241504774172167
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &4902108862218914667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11208,6 +12696,23 @@ MonoBehaviour:
   FileSizes: []
   Exists: 0
 --- !u!114 &4919379890152317560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &4934513661955944290
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11257,7 +12762,7 @@ MonoBehaviour:
   Path: event:/Dialog/Tutorial1
   guid: a976ea16a13b6a4db723bbbda63ec77e
   Banks:
-  - {fileID: -6768145910294865942}
+  - {fileID: 4865344532095638327}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -11282,6 +12787,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &5025958108070594803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dialogue/DialogueNumber
+  m_EditorClassIdentifier: 
+  Name: DialogueNumber
+  Min: 1
+  Max: 7
+  Default: 1
+  Exists: 0
 --- !u!114 &5058933095992616429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11299,6 +12821,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &5070241319707716592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interface.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Interface.bank
+  SubDir: 
+  lastModified: 637241504745700627
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &5090724563014860191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11334,6 +12874,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &5147447898217469021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &5148960576753938378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11349,13 +12906,13 @@ MonoBehaviour:
   Path: event:/Ambience/VampireAmbiance
   guid: 84fa4587f2dd844d8397be56dc46cc13
   Banks:
-  - {fileID: 6919992182990154043}
+  - {fileID: -5273568650342511543}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 2154278040738747219}
-  - {fileID: 2157084906943288906}
+  - {fileID: -7060242602148899714}
+  - {fileID: -4408605754532238605}
   MinDistance: 1
   MaxDistance: 15
   Length: 5000
@@ -11428,6 +12985,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 1
+--- !u!114 &5238146878439167712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &5269951253881948578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11461,6 +13035,24 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 0
+--- !u!114 &5325757961280073954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637235850210136963
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &5344899060961642106
 MonoBehaviour:
@@ -11497,6 +13089,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5360577884346271249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &5380885778749036967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11529,6 +13138,24 @@ MonoBehaviour:
   Path: FMOD/FinalProject/Build/Desktop/SFX.bank
   SubDir: 
   lastModified: 637215289543208180
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5474007862720378521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637241504688921288
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -11620,6 +13247,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5554952171662271342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637235850106369351
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5575501943913067894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11708,6 +13353,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5657971228497696494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fireball/HoldingMouse
+  m_EditorClassIdentifier: 
+  Name: HoldingMouse
+  Min: 0
+  Max: 2
+  Default: 1
+  Exists: 0
 --- !u!114 &5666252832122932034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11758,7 +13420,7 @@ MonoBehaviour:
   Path: event:/UI/Staff Fire Crackling
   guid: 381ecb193430334e9619dec213f205a3
   Banks:
-  - {fileID: 703439963134715659}
+  - {fileID: 5070241319707716592}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -11784,6 +13446,23 @@ MonoBehaviour:
   Default: 0
   Exists: 0
 --- !u!114 &5772875839919563392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5800923059986745278
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11906,6 +13585,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5951449874281938997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interface.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Interface.bank
+  SubDir: 
+  lastModified: 637235850148077889
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5953024840272880136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11974,7 +13671,7 @@ MonoBehaviour:
   Path: event:/Dialog/Tutorial6
   guid: 2927b782b711f74e9f0b08fa1a1a9807
   Banks:
-  - {fileID: -6768145910294865942}
+  - {fileID: 4865344532095638327}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -11997,6 +13694,24 @@ MonoBehaviour:
   Path: FMOD/FinalProject/Build/Desktop/Interface.bank
   SubDir: 
   lastModified: 637235094753724977
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6133280672907769971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interface.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Interface.bank
+  SubDir: 
+  lastModified: 637235850148077889
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -12124,7 +13839,7 @@ MonoBehaviour:
   Path: event:/SFX/FireballHit
   guid: 9850b8ad3838914ab5d56ece7299e231
   Banks:
-  - {fileID: -3398857911429124627}
+  - {fileID: 1720137294389931874}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -12253,7 +13968,7 @@ MonoBehaviour:
   Path: event:/SFX/HellfirePickup
   guid: 3464ea75646e9848b270ca6b2908814e
   Banks:
-  - {fileID: -3398857911429124627}
+  - {fileID: 1720137294389931874}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -12485,6 +14200,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &6586909692784931062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambiance.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Ambiance.bank
+  SubDir: 
+  lastModified: 637241495798524813
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &6599481826118385712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12519,6 +14252,59 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 0
+--- !u!114 &6624260449951533202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637235850210136963
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6648225834757373207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambiance.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Ambiance.bank
+  SubDir: 
+  lastModified: 637241498202390087
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6677802133796962075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fireball/HoldingMouse
+  m_EditorClassIdentifier: 
+  Name: HoldingMouse
+  Min: 0
+  Max: 2
+  Default: 1
   Exists: 0
 --- !u!114 &6692200719083259958
 MonoBehaviour:
@@ -12590,6 +14376,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6822596803227235592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interface.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Interface.bank
+  SubDir: 
+  lastModified: 637235850148077889
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &6850954929718982081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12608,6 +14412,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6851303404281629892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: PlayerHealth
+  m_EditorClassIdentifier: 
+  Name: PlayerHealth
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
 --- !u!114 &6851472443766947978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12676,6 +14497,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &6887618965731320579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &6919992182990154043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12693,7 +14531,7 @@ MonoBehaviour:
   lastModified: 637235850068515574
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &6935005226531755941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12796,7 +14634,7 @@ MonoBehaviour:
   Path: event:/Ambience/HealingTileAmbiance2D
   guid: 8cd63236ac7687439e07ed38584e1a3c
   Banks:
-  - {fileID: 6919992182990154043}
+  - {fileID: -5273568650342511543}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -12857,6 +14695,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7109943848164837680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &7118195959174006738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12872,7 +14727,7 @@ MonoBehaviour:
   Path: event:/Dialog/Tutorial3
   guid: 9b52ba3f53d06141ace100f4fad87613
   Banks:
-  - {fileID: -6768145910294865942}
+  - {fileID: 4865344532095638327}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12913,7 +14768,7 @@ MonoBehaviour:
   Path: event:/Ambience/Exit Sign Buzz
   guid: 15537875d45301448128c8a923aa2f9a
   Banks:
-  - {fileID: 6919992182990154043}
+  - {fileID: -5273568650342511543}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -13023,7 +14878,7 @@ MonoBehaviour:
   Path: event:/UI/ClickButton
   guid: f8e9e857ac61aa4297fd0f2535cf91bb
   Banks:
-  - {fileID: 703439963134715659}
+  - {fileID: 5070241319707716592}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -13170,7 +15025,7 @@ MonoBehaviour:
   lastModified: 637235850181270559
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &7522716579361496520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13187,6 +15042,23 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 1
+  Exists: 0
+--- !u!114 &7585463042922835683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &7610923930131131198
 MonoBehaviour:
@@ -13326,6 +15198,23 @@ MonoBehaviour:
   lastModified: 637215158215016505
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &7703656377101121747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &7819316053840044792
 MonoBehaviour:
@@ -13467,6 +15356,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7953610421733796176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &7958774696964137934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13520,6 +15426,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7998796243721652143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637235850210136963
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8001921391349421057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13552,6 +15476,59 @@ MonoBehaviour:
   Path: FMOD/FinalProject/Build/Desktop/Music.bank
   SubDir: 
   lastModified: 637215158247827447
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8039982445041131580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637235849518270034
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8041001545576920491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &8043515539682912192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637241504717241944
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -13675,7 +15652,7 @@ MonoBehaviour:
   Path: event:/Dialog/Tutorial5
   guid: 4d13154ab4939c49be8e34eef96995d7
   Banks:
-  - {fileID: -6768145910294865942}
+  - {fileID: 4865344532095638327}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -13755,7 +15732,7 @@ MonoBehaviour:
   Path: event:/SFX/PlayerHealing
   guid: b9af5d9a453e3b428fa9e069994e1ecb
   Banks:
-  - {fileID: -3398857911429124627}
+  - {fileID: 1720137294389931874}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -13885,6 +15862,23 @@ MonoBehaviour:
   lastModified: 637235034152717926
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &8333189028817276191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &8350957891233294336
 MonoBehaviour:
@@ -14044,6 +16038,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8455742277099791394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637235850106369351
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8462585631224047883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14060,7 +16072,7 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &8473175693163052061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14092,6 +16104,23 @@ MonoBehaviour:
   m_Name: parameter:/PlayerAmbiance/Moving
   m_EditorClassIdentifier: 
   Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &8492672510582074166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/EnemyType
+  m_EditorClassIdentifier: 
+  Name: EnemyType
   Min: 0
   Max: 2
   Default: 0
@@ -14132,6 +16161,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8554904605562740501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VampireAmbiance/EnemyHealth
+  m_EditorClassIdentifier: 
+  Name: EnemyHealth
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &8558664482251000332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14150,6 +16196,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8566253099167703985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637241504774232026
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &8581557727570031703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14219,6 +16283,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &8627818235757297299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyHit/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &8641094356403511565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14253,6 +16334,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 1
+--- !u!114 &8711586250206333737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/FinalProject/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637235849518270034
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8720317389013790841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14549,6 +16648,23 @@ MonoBehaviour:
   lastModified: 637215158215016505
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &8886728321613789160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HellhoundAmbiance/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &8908761591421097892
 MonoBehaviour:
@@ -14849,6 +16965,23 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &9205917360702842883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyMeleeAttack/IsBoss
+  m_EditorClassIdentifier: 
+  Name: IsBoss
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &9210761698920128740
 MonoBehaviour:
