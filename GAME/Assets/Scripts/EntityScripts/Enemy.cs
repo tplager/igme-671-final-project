@@ -34,8 +34,11 @@ public class Enemy : Vehicle
 
     [SerializeField]
     private bool isBoss;
+    [SerializeField]
+    private bool hellhound; 
 
-    private StudioEventEmitter ambiance; 
+    private StudioEventEmitter ambiance;
+    private StudioEventEmitter hellhoundDeath;
 #endregion
 
 // Start is called before the first frame update
@@ -50,6 +53,8 @@ void Start()
         {
             if (em.Event == "event:/Ambience/VampireAmbiance" || em.Event == "event:/Ambience/HellhoundAmbiance")
                 ambiance = em;
+            else if (em.Event == "event:/SFX/Hellhound Death")
+                hellhoundDeath = em; 
 
             if ((em.Event == "event:/SFX/EnemyHit" || em.Event == "event:/SFX/EnemyMeleeAttack") && isBoss)
             {
@@ -118,6 +123,10 @@ void Start()
                             Destroy(w); 
                         }
                     }
+                }
+                else if (hellhound)
+                {
+                    hellhoundDeath.Play(); 
                 }
                 Destroy(gameObject);
             }
